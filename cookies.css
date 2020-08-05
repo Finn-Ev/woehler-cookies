@@ -90,7 +90,7 @@ body {
 #acceptAllButton,
 #openSettingsButton {
   border-radius: 0;
-  min-width: 270px;
+  min-width: 275px;
   font-weight: 600;
   border: white 1px solid;
   margin: 5px;
