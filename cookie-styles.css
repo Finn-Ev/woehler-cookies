@@ -5,7 +5,7 @@ body {
 }
 
 :root {
-  --blue: #0068b4;
+  --banner-blue: #0068b4;
 }
 
 .cookie-banner-container {
@@ -41,7 +41,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  background: var(--blue);
+  background: var(--banner-blue);
   width: 50%;
   text-align: center;
   padding: 1.5rem 3rem;
@@ -52,7 +52,6 @@ body {
     width: 90%;
     max-height: 95vh;
     overflow-y: auto;
-
     padding: 1rem 1.5rem;
   }
 }
@@ -63,7 +62,7 @@ body {
 }
 
 .cookie-banner-text {
-  text-align: left; /*laut Abbildung */
+  text-align: left;
   line-height: 1.5;
 }
 
@@ -80,7 +79,7 @@ body {
   cursor: pointer;
 }
 
-.buttons {
+.cookie-banner-buttons {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -98,7 +97,7 @@ body {
 }
 
 #acceptAllButton {
-  color: var(--blue);
+  color: var(--banner-blue);
   background: white;
 }
 

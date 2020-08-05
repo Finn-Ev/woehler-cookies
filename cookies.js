@@ -19,8 +19,8 @@ window.addEventListener("cf_init", function () {
   // der Standard CookieFirst-Banner wird entfernt
   function removeCFBanner() {
     var cfRoot = document.querySelector("#cf-root");
-    var cfBanner = cfRoot.childNodes[0].childNodes[0];
-    cfBanner.style.display = "none";
+    //cfRoot.style.display = "none";
+    cfRoot.remove();
   }
 
   // initial ist der Custom-Banner auf visibility: "hidden" gestellt
